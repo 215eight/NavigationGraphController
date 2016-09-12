@@ -10,6 +10,12 @@
 		A79C5A711D87545900A86BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A701D87545900A86BA0 /* AppDelegate.swift */; };
 		A79C5A781D87545900A86BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79C5A771D87545900A86BA0 /* Assets.xcassets */; };
 		A79C5A7B1D87545900A86BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79C5A791D87545900A86BA0 /* LaunchScreen.storyboard */; };
+		A79C5A931D87563800A86BA0 /* CompleteNavigationGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A901D87563800A86BA0 /* CompleteNavigationGraph.swift */; };
+		A79C5A941D87563800A86BA0 /* NavigationGraphEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A911D87563800A86BA0 /* NavigationGraphEdge.swift */; };
+		A79C5A951D87563800A86BA0 /* NavigationGraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A921D87563800A86BA0 /* NavigationGraphNode.swift */; };
+		A79C5A991D87564700A86BA0 /* CompleteNavigationGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A961D87564700A86BA0 /* CompleteNavigationGraphTests.swift */; };
+		A79C5A9A1D87564700A86BA0 /* NavigationGraphEdgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A971D87564700A86BA0 /* NavigationGraphEdgeTests.swift */; };
+		A79C5A9B1D87564700A86BA0 /* NavigationGraphNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A981D87564700A86BA0 /* NavigationGraphNodeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,12 @@
 		A79C5A7C1D87545900A86BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79C5A811D87545900A86BA0 /* NavigationGraphControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationGraphControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79C5A871D87545900A86BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79C5A901D87563800A86BA0 /* CompleteNavigationGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteNavigationGraph.swift; sourceTree = "<group>"; };
+		A79C5A911D87563800A86BA0 /* NavigationGraphEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationGraphEdge.swift; sourceTree = "<group>"; };
+		A79C5A921D87563800A86BA0 /* NavigationGraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationGraphNode.swift; sourceTree = "<group>"; };
+		A79C5A961D87564700A86BA0 /* CompleteNavigationGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteNavigationGraphTests.swift; sourceTree = "<group>"; };
+		A79C5A971D87564700A86BA0 /* NavigationGraphEdgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationGraphEdgeTests.swift; sourceTree = "<group>"; };
+		A79C5A981D87564700A86BA0 /* NavigationGraphNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationGraphNodeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,9 @@
 		A79C5A6F1D87545900A86BA0 /* NavigationGraphController */ = {
 			isa = PBXGroup;
 			children = (
+				A79C5A901D87563800A86BA0 /* CompleteNavigationGraph.swift */,
+				A79C5A911D87563800A86BA0 /* NavigationGraphEdge.swift */,
+				A79C5A921D87563800A86BA0 /* NavigationGraphNode.swift */,
 				A79C5A701D87545900A86BA0 /* AppDelegate.swift */,
 				A79C5A771D87545900A86BA0 /* Assets.xcassets */,
 				A79C5A791D87545900A86BA0 /* LaunchScreen.storyboard */,
@@ -82,6 +97,9 @@
 		A79C5A841D87545900A86BA0 /* NavigationGraphControllerTests */ = {
 			isa = PBXGroup;
 			children = (
+				A79C5A961D87564700A86BA0 /* CompleteNavigationGraphTests.swift */,
+				A79C5A971D87564700A86BA0 /* NavigationGraphEdgeTests.swift */,
+				A79C5A981D87564700A86BA0 /* NavigationGraphNodeTests.swift */,
 				A79C5A871D87545900A86BA0 /* Info.plist */,
 			);
 			path = NavigationGraphControllerTests;
@@ -187,7 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79C5A951D87563800A86BA0 /* NavigationGraphNode.swift in Sources */,
+				A79C5A941D87563800A86BA0 /* NavigationGraphEdge.swift in Sources */,
 				A79C5A711D87545900A86BA0 /* AppDelegate.swift in Sources */,
+				A79C5A931D87563800A86BA0 /* CompleteNavigationGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79C5A991D87564700A86BA0 /* CompleteNavigationGraphTests.swift in Sources */,
+				A79C5A9B1D87564700A86BA0 /* NavigationGraphNodeTests.swift in Sources */,
+				A79C5A9A1D87564700A86BA0 /* NavigationGraphEdgeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,10 +355,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NavigationGraphControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pman215.NavigationGraphControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationGraphController.app/NavigationGraphController";
 			};
 			name = Debug;
@@ -343,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NavigationGraphControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pman215.NavigationGraphControllerTests;
