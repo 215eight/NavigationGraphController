@@ -16,6 +16,7 @@
 		A79C5A991D87564700A86BA0 /* CompleteNavigationGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A961D87564700A86BA0 /* CompleteNavigationGraphTests.swift */; };
 		A79C5A9A1D87564700A86BA0 /* NavigationGraphEdgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A971D87564700A86BA0 /* NavigationGraphEdgeTests.swift */; };
 		A79C5A9B1D87564700A86BA0 /* NavigationGraphNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A981D87564700A86BA0 /* NavigationGraphNodeTests.swift */; };
+		A79C5A9D1D8756F400A86BA0 /* NavigationGraphController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A9C1D8756F400A86BA0 /* NavigationGraphController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A79C5A961D87564700A86BA0 /* CompleteNavigationGraphTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteNavigationGraphTests.swift; sourceTree = "<group>"; };
 		A79C5A971D87564700A86BA0 /* NavigationGraphEdgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationGraphEdgeTests.swift; sourceTree = "<group>"; };
 		A79C5A981D87564700A86BA0 /* NavigationGraphNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationGraphNodeTests.swift; sourceTree = "<group>"; };
+		A79C5A9C1D8756F400A86BA0 /* NavigationGraphController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationGraphController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		A79C5A6F1D87545900A86BA0 /* NavigationGraphController */ = {
 			isa = PBXGroup;
 			children = (
+				A79C5A9C1D8756F400A86BA0 /* NavigationGraphController.swift */,
 				A79C5A901D87563800A86BA0 /* CompleteNavigationGraph.swift */,
 				A79C5A911D87563800A86BA0 /* NavigationGraphEdge.swift */,
 				A79C5A921D87563800A86BA0 /* NavigationGraphNode.swift */,
@@ -208,6 +211,7 @@
 				A79C5A951D87563800A86BA0 /* NavigationGraphNode.swift in Sources */,
 				A79C5A941D87563800A86BA0 /* NavigationGraphEdge.swift in Sources */,
 				A79C5A711D87545900A86BA0 /* AppDelegate.swift in Sources */,
+				A79C5A9D1D8756F400A86BA0 /* NavigationGraphController.swift in Sources */,
 				A79C5A931D87563800A86BA0 /* CompleteNavigationGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
