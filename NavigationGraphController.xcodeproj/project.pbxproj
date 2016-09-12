@@ -10,7 +10,6 @@
 		A79C5A711D87545900A86BA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A701D87545900A86BA0 /* AppDelegate.swift */; };
 		A79C5A781D87545900A86BA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79C5A771D87545900A86BA0 /* Assets.xcassets */; };
 		A79C5A7B1D87545900A86BA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79C5A791D87545900A86BA0 /* LaunchScreen.storyboard */; };
-		A79C5A861D87545900A86BA0 /* NavigationGraphControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79C5A851D87545900A86BA0 /* NavigationGraphControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +29,6 @@
 		A79C5A7A1D87545900A86BA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A79C5A7C1D87545900A86BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79C5A811D87545900A86BA0 /* NavigationGraphControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationGraphControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A79C5A851D87545900A86BA0 /* NavigationGraphControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationGraphControllerTests.swift; sourceTree = "<group>"; };
 		A79C5A871D87545900A86BA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +82,6 @@
 		A79C5A841D87545900A86BA0 /* NavigationGraphControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				A79C5A851D87545900A86BA0 /* NavigationGraphControllerTests.swift */,
 				A79C5A871D87545900A86BA0 /* Info.plist */,
 			);
 			path = NavigationGraphControllerTests;
@@ -198,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79C5A861D87545900A86BA0 /* NavigationGraphControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
