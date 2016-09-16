@@ -61,7 +61,7 @@ private extension NavigationGraphController {
         }
 
         addChildViewController(newController)
-        newController.view.frame = view.frame
+        newController.view.frame = view.bounds
         view.addSubview(newController.view)
         newController.didMoveToParentViewController(self)
     }
